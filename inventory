@@ -1,2 +1,4 @@
 [all]
 3.86.81.70
+
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
