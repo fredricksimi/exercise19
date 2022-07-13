@@ -17,6 +17,7 @@ jobs:
           command: |
             ansible-playbook -i inventory ansible.cfg
 
-myWorkflow:
-  jobs:
-    - configure_infrastructure
+workflows:
+  myWorkflow:
+    jobs:
+      - configure_infrastructure
