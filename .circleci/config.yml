@@ -14,3 +14,7 @@ configure_infrastructure:
         name: Run Playbook and Configure
         command: |
           ansible-playbook -i inventory ansible.cfg
+
+myWorkflow:
+  jobs:
+    - configure_infrastructure
